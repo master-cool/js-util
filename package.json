@@ -1,6 +1,6 @@
 {
   "name": "@master-cool/js-util",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "JavaScript 基础工具库",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/master-cool/js-util#readme",
   "sideEffects": false,
+  "files": [
+    "dist/",
+    "index.js",
+    "sys-config.js"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
