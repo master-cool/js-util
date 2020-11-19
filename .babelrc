@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    // 与 nyc 配置中的 @istanbuljs/nyc-config-babel 一起
+    // 解决 node 环境下的 import 导入导出问题
+    "babel-plugin-istanbul",
+    "@babel/plugin-transform-runtime"
+  ]
+}
